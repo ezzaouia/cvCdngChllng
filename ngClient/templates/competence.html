@@ -1,0 +1,16 @@
+<md-content>
+  <md-list>
+    <md-list-item ng-repeat="sectionCompetence in selectedSection.all" class="md-3-line md-long-text animated rotateInUpLeft">
+      <div class="md-list-item-text">
+        <h3>{{ sectionCompetence.title }} : </h3>
+        <p>
+          {{ sectionCompetence.els }}
+        </p>
+        <div class="progress">
+          <div class="determinate" style="width: {{ sectionCompetence.width }}%"></div>
+        </div>
+      </div>
+      <md-divider ng-if="!$last"></md-divider>
+    </md-list-item>
+  </md-list>
+</md-content>

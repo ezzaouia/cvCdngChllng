@@ -1,0 +1,25 @@
+<div class="class-home">
+  <section class="jumbotron md-whiteframe-z1 animated jello">
+    <h4>{{motivationObj.fullname}}</h4>
+    <h5><ng-md-icon class="md-avatar" size="20" icon="email" style="fill: #3e4f56"></ng-md-icon>
+      {{motivationObj.email}}
+    </h5>
+
+    <h5>
+      <ng-md-icon class="md-avatar" size="20" icon="phone" style="fill: #3e4f56"></ng-md-icon>
+      {{motivationObj.phone}}
+    </h5>
+  </section>
+</div>
+
+<md-content>
+  <md-list>
+    <md-list-item ng-repeat="motivationText in selectedSection.motivation" class="md-3-line md-long-text animated tada">
+      <div class="md-list-item-text">
+        <p>
+          {{ motivationText }}
+        </p>
+      </div>
+    </md-list-item>
+  </md-list>
+</md-content>

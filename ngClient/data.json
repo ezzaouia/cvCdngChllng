@@ -1,0 +1,223 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "sectionName": "Motivation",
+      "title": "home",
+      "fullname": "Mohamed EZ ZAOUIA",
+      "email": "ezzaouia@gmail.com",
+      "phone": "0780719991",
+      "motivation": [
+          "Je suis très passionné par la R&D et la recherche scientifique en informatique, notamment, le Big Data, Data Mining et Machine Learning, d’autant plus, j’avais toujours l’ambition de travailler dans un tel environnement. C’est pourquoi, j’ai décidé de continuer mes études en Master 2 de recherche, afin de pouvoir continuer dans le cycle doctoral.",
+          "Votre sujet m’intéresse beaucoup car il correspond parfaitement à ma grande passion pour le Big Data, Machine Learning, d’autant plus qu’il regroupe à la fois l’aspect théorique et pratique.",
+"Durant mon ancienne expérience en tant qu’ingénieur en génie logiciel avec Accenture Maroc ainsi que durant mes stages j’ai acquis de solide compétences en développement logiciel, l’esprit d’équipe et le sens d’autonomie, ce qui me permet d’être opérationnelle pour le stage ainsi que la thèse."
+        ]
+    },
+    {
+      "id": 2,
+      "sectionName": "Profil",
+      "title": "profile",
+      "line": [{
+          "icon": "school",
+          "detail": "Ingénieur d’Etat lauréat de l’Ecole Nationale Supérieure d’Informatique et d’Analyse des Systèmes - ENSIAS, Rabat, Maroc."
+        }, {
+          "icon": "grade",
+          "detail": "Deux ans d’expérience en tant que développeur Java/JEE chez Accenture Maroc."
+        }, {
+          "icon": "school",
+          "detail": "Encours : Master 2 recherche : Modèle et Algorithmes d’Aide à la Décision, ISIMA - UBP."
+        }
+        ]
+    },
+    {
+      "id": 3,
+      "sectionName": "Education",
+      "title": "education",
+      "all": [{
+          "id": 1,
+          "cycle": "Master 2, Modèle et Algorithmes d’Aide à la Décision — Sep 2015–présent",
+          "detail": "ISIMA - Université Blaise Pascal, Clermont Ferrand, France."
+        },
+        {
+          "id": 2,
+          "cycle": "Ingénieur d’Etat en génie logiciel — 2010–2013",
+          "detail": "Ecole Nationale Supérieure d’Informatique et d’Analyse des Systèmes, Rabat, Maroc."
+        },
+        {
+          "id": 3,
+          "cycle": "Classes Préparatoires aux Grandes Ecoles — 2007–2010",
+          "detail": "Lycée Technique Mohamed V, Beni Mellal, Maroc."
+        },
+        {
+          "id": 4,
+          "cycle": "Baccalauréat, Science Mathématique — 2006–2007",
+          "detail": "Lycée My Rachid, Kasba Tadla Beni Mellal, Maroc."
+        }]
+    },
+    {
+      "id": 4,
+      "sectionName": "Expérience",
+      "title": "experience",
+      "all": {
+        "id": 1,
+        "title": "Software Engineering Analyst.",
+        "location": "Casablanca, Maroc.",
+        "company": "Accenture Maroc.",
+        "projects": [{
+            "title": "Mai 2014—Août 2015: Télécommunication, BSCS—JEE",
+            "details": "Upgrade du système de facturation d’un grand opérateur vers la version BSCS iX R4. Le travaille est en partie au Maroc et sur site du client au Côte d’Ivoire.",
+            "stack": "Java/JEE - JSF, PrimeFaces, Spring (beans container, LDAP, ORM, AOP), Hibernate, Maven, Jenkins, *ux, Shell, UML, Oracle PL/SQL, ADMX, CX, AX, CMS, Soitool, Web Services, Apache CXF."
+          },
+          {
+            "title": "Fév. 2014—Avr. 2014: Comptabilité - Traitement batch, Java",
+            "details": "Une solution pour l’intégration de données entre différents systèmes du noyau comptable d’une compagnie aérienne Marocaine.",
+            "stack": "Java, Spring (beans container, JdbcTemplate, batch), Maven, Bean IO, Oracle PL/SQL."
+          },
+          {
+            "title": "Oct 2013—Jan. 2014: Paiements bancaires - SEPA, JEE, SOA",
+            "details": "Intégration de la plateforme de paiement, Open Payment Framework (OPF), de la société de paiements Clear2Pay, pour le compte d’une grande banque espagnole. ",
+            "stack": "Java/JEE, EJB, Struts, OPF, Oracle, Shell, BPEL (Standard d’orchestration du service du consortium OASIS), SCA (Service Component Architecture), IBM WPS/WID."
+          }
+             ]
+      }
+  },
+    {
+      "id": 6,
+      "sectionName": "Stages",
+      "title": "internship",
+      "all": [{
+          "id": 1,
+          "title": "Mar—Sep. 2013: Software Developer — Projet de fin d’études.",
+          "location": "Casablanca, Maroc.",
+          "company": "Accenture Maroc.",
+          "subject": {
+            "details": "Intégration d’un nouveau type de paiement dit ACH (Automated Clearing House) au sein de la plateforme de paiements d’une banque espagnole, à l’aide d’une démarche BPM: conception, implémentation et configuration, exécution et diagnostique.",
+            "stack": "Java/JEE, BPMN, UML, BPEL, SCA, OPF, IBM WPS/WID."
+          }
+      },
+        {
+          "id": 1,
+          "title": "Juin—Août 2012: Java/JEE Developer — Stage fin 2ème année.",
+          "location": "Casablanca, Maroc.",
+          "company": "ALM Solution.",
+          "subject": {
+            "details": "Conception et développement d’une application mobile destinée aux associations; pour le partage des actualités et les activités entre les adhérents.",
+            "stack": "Java/JEE, Spring, Hibernate, PrimeFaces Mobile, MySQL, Apache Tomcat."
+          }
+      },
+        {
+          "id": 1,
+          "title": "Déc 2012: Android Developer — Finaliste @ Meditel apps challenge.",
+          "location": "Casablanca, Maroc.",
+          "company": "Meditel.",
+          "subject": {
+            "details": "Conception et développement d’une application android (client/serveur) pour promouvoir le tourisme marocain.",
+            "stack": "Android, JSON, PHP, MySQL, Apache XAMPP."
+          }
+      }]
+    },
+    {
+      "id": 4,
+      "sectionName": "Compétence",
+      "title": "competence",
+      "all": [
+        {
+          "title": "Processus de développement",
+          "els": "Waterfall, Spiral, Agile.",
+          "width": 60
+        },
+        {
+          "title": "Machine learning, Data Mining",
+          "els": "Cours + tech. Spark Mlib.",
+          "width": 35
+        },
+        {
+          "title": "Programmation Linéaire",
+          "els": "",
+          "width": 45
+        },
+        {
+          "title": "Design",
+          "els": "Deign Patterns (GoF, SOLID), UML.",
+          "width": 60
+        },
+        {
+          "title": "OOP + Scripting",
+          "els": "Java, Ruby, Python, Shell.",
+          "width": 80
+        },
+        {
+          "title": "Frameworks",
+          "els": "Spring, Hibernate, JSF, Spark, IPython, Vagrant, Docker.",
+          "width": 73
+        },
+        {
+          "title": "DDB",
+          "els": "PL/SQL, Postgresql, Mongodb, Rethinkdb.",
+          "width": 68
+        },
+        {
+          "title": "Tools & Techno",
+          "els": "Maven, Jenkins, Oracle, Tomcat, Jboss, Linux, SVN, Git.",
+          "width": 70
+        },
+        {
+          "title": "Web",
+          "els": "Javascript, AngularJs, NodeJs, npm, Gulp, Bower.",
+          "width": 69
+        }]
+  },
+    {
+      "id": 7,
+      "sectionName": "Autres",
+      "title": "other",
+      "all": {
+        "languages": {
+          "title": "Langues",
+          "languages": [
+            {
+              "language": "Français",
+              "level": "Courant"
+            },
+            {
+              "language": "Anglais",
+              "level": "Bon"
+            },
+            {
+              "language": "Arabe",
+              "level": "Langue maternelle"
+            }
+          ]
+        },
+        "hobbies": {
+          "title": "Loisirs",
+          "all": [
+            {
+              "title": "Work",
+              "icon": "work",
+              "hobbies": ["Génie Logiciel", "SaaS/Cloud", "Pair Programming"]
+            },
+            {
+              "title": "Play",
+              "icon": "games",
+              "hobbies": ["Ma petite famille", "Footing", "Footing Football"]
+            }
+          ]
+        },
+        "certif": {
+          "title": "Certifications",
+          "all": [
+            {
+              "title": "MongoDBx (Edx MongoDB): M101x: Intro. to MongoDB using the MEAN Stack",
+              "link": "https://courses.edx.org/certificates/user/2424894/course/course-v1:MongoDBx+M101x"
+            },
+            {
+              "title": "UC BerkeleyX (Edx Berkeley): CS169.1x Engineering Software as a Service",
+              "link": "https://verify.edx.org/cert/4dbd2e1d1d514db685e1bcc1083e5d1b"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

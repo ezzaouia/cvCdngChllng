@@ -1,0 +1,9 @@
+<div layout-align="center">
+  <md-card class="animated bounceInRight" ng-repeat="sectionLine in selectedSection.line">
+    <md-card-content>
+      <ng-md-icon class="material-icons pull-right" icon="{{sectionLine.icon}}" style="fill: #666666"></ng-md-icon>
+      <h3 class="md-title"></h3>
+      <p>{{sectionLine.detail}}</p>
+    </md-card-content>
+  </md-card>
+</div>

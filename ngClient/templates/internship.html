@@ -1,0 +1,25 @@
+<ul class="collapsible popout" data-collapsible="accordion" watch>
+  <li class="animated swing" ng-repeat="intern in selectedSection.all">
+    <div class="collapsible-header">
+
+      <div class="md-list-item-text">
+
+        <h5> <i class="material-icons right">more_vert</i>  {{intern.title}}</h5>
+        <h6> 
+          <ng-md-icon class="md-avatar" size="15" icon="home" style="fill: #666666"></ng-md-icon>
+          {{intern.company}} 
+          <ng-md-icon class="md-avatar" size="15" icon="location_on" style="fill: #666666"></ng-md-icon>
+          {{intern.location}}</h6>
+        <p>
+          {{intern.subject.details}}
+        </p>
+      </div>
+
+    </div>
+    <div class="collapsible-body">
+      <p>
+        <ng-md-icon icon="polymer" style="fill: #666666"></ng-md-icon> {{intern.subject.stack}}
+      </p>
+    </div>
+  </li>
+</ul>

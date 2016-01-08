@@ -1,0 +1,73 @@
+<html ng-app="cvCodingSpeakPlus">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpeakPlus CV Coding</title>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+  <link rel="stylesheet" href="./assests/css/main.css">
+</head>
+
+<body layout="row" class="layout-row" ng-controller="SidebarController">
+
+  <md-sidenav md-is-locked-open="$mdMedia('gt-sm')" class="md-whiteframe-z2" md-component-id="left">
+    <a ng-href="#/" ng-click="navigateTo('/', motivationObj)" class="logo" layout-align="center center">
+      <img src="./assests/images/photo.jpg" alt="" class="circle user-img responsive-img">
+      <div class="block">
+        <h5 class="logotype md-heading">
+          <acme-malarkey center extra-values="['Mohamed Ez zaouia..', 'Célibataire..', '@ Résidence Pasteur..', 'Clermont Ferrand']"></acme-malarkey></h5>
+      </div>
+    </a>
+
+    <md-list>
+      <md-list-item class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page" ng-click="navigateTo('/' + section.title, section)" ng-repeat="section in sections | orderBy : id">
+        <i class="material-icons right">more_vert</i> {{section.sectionName}}
+        <md-divider ng-if="!$last"></md-divider>
+      </md-list-item>
+    </md-list>
+  </md-sidenav>
+
+  <div layout="column" tabIndex="-1" role="main" flex>
+
+    <div ng-controller="ToolbarController">
+      <md-toolbar class="md-whiteframe-glow-z2 site-content-toolbar">
+        <div class="md-toolbar-tools docs-toolbar-tools" tabIndex="-1">
+          <md-button class="md-icon-button" ng-click="toggleSidenav('left')" hide-gt-sm aria-label="Toggle Menu">
+            <md-icon md-svg-src="./assests/images/ic_menu_24px.svg"></md-icon>
+          </md-button>
+          <div layout="row" flex class="fill-height">
+            <h2 ng-hide="(selectedSection === null) || (selectedSection.sectionName === 'Motivation')" class="md-toolbar-item md-breadcrumb md-headline">
+            <span>{{selectedSection.sectionName}}</span>
+          </h2>
+            <span flex></span>
+          </div>
+        </div>
+      </md-toolbar>
+    </div>
+
+    <md-content flex id="content">
+      <div ng-view></div>
+    </md-content>
+
+  </div>
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-messages.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.6.0/angular-material-icons.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+
+  <script type="text/javascript " src="./vendor-lib/malarkey.min.js"></script>
+  <script type="text/javascript " src="./vendor-lib/angular-materialize.js"></script>
+  <script type="text/javascript " src="./bin/index.js"></script>
+</body>
+
+</html>
