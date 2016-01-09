@@ -9,7 +9,9 @@
       "phone": "0780719991",
       "motivation": [
           "Je suis très passionné par la R&D et la recherche scientifique en informatique, notamment, le Big Data, Data Mining et Machine Learning, d’autant plus, j’avais toujours l’ambition de travailler dans un tel environnement. C’est pourquoi, j’ai décidé de continuer mes études en Master 2 de recherche, afin de pouvoir continuer dans le cycle doctoral.",
+
           "Votre sujet m’intéresse beaucoup car il correspond parfaitement à ma grande passion pour le Big Data, Machine Learning, d’autant plus qu’il regroupe à la fois l’aspect théorique et pratique.",
+
 "Durant mon ancienne expérience en tant qu’ingénieur en génie logiciel avec Accenture Maroc ainsi que durant mes stages j’ai acquis de solide compétences en développement logiciel, l’esprit d’équipe et le sens d’autonomie, ce qui me permet d’être opérationnelle pour le stage ainsi que la thèse."
         ]
     },
@@ -209,7 +211,7 @@
           "all": [
             {
               "title": "MongoDBx (Edx MongoDB): M101x: Intro. to MongoDB using the MEAN Stack",
-              "link": "https://courses.edx.org/certificates/user/2424894/course/course-v1:MongoDBx+M101x"
+              "link": "https://courses.edx.org/certificates/769bec9ee5f34a358ff9cb9a0576cbe4"
             },
             {
               "title": "UC BerkeleyX (Edx Berkeley): CS169.1x Engineering Software as a Service",
